@@ -18,9 +18,9 @@ const ProductForm = (props) => {
 
   const initialProductState = {
     _id: null,
-    name: "",
-    price: 0,
-    expiry_date: null,
+    nombre: "",
+    precio: 0,
+    date_exp: null,
   };
 
   const [productData, setProductData] = useState(initialProductState);
